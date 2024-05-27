@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import './App.css';
 
 function App() {
-  const [visits, setVisits] = useState('0');
+  const [visits, setVisits] = useState(0);
 
   return (
     <Router>
