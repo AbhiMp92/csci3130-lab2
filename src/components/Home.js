@@ -5,7 +5,7 @@ const Home = ({ visits, setVisits }) => {
    
   useEffect(() => {
     setVisits(prevVisits => prevVisits + 1);
-  }, [setVisits]);
+  }, [visits,setVisits]);
 
   return (
     <div>
