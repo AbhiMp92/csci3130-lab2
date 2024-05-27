@@ -2,10 +2,10 @@
 import React, { useEffect } from 'react';
 
 const Home = ({ visits, setVisits }) => {
-    console.log("visits", visits);
+   
   useEffect(() => {
     setVisits(visits+1);
-  }, [setVisits, visits]);
+  }, [visits,setVisits]);
 
   return (
     <div>
